@@ -874,9 +874,10 @@ section {
 /*--------------------------------------------------------------
 # My Portfolio
 --------------------------------------------------------------*/
-.portfolio #portfolio-flters {
+.portfolio {
   list-style: none;
   margin-bottom: 20px;
+  background-color: #FAF9F6;
 }
 
 .portfolio #portfolio-flters li {
@@ -1016,17 +1017,18 @@ section {
 }
 
 .portfolio-details .portfolio-description {
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .portfolio-details .portfolio-description h2 {
   font-size: 26px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 .portfolio-details .portfolio-description p {
   padding: 0;
+  font-size: 14px;
 }
 
 /*--------------------------------------------------------------
@@ -1142,6 +1144,10 @@ section {
 /*--------------------------------------------------------------
 # Contact Me
 --------------------------------------------------------------*/
+.contact {
+  background-color: #FAF9F6;
+}
+
 .contact .info-box {
   color: #444444;
   text-align: center;
@@ -1307,7 +1313,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url("../img/reach.jpg") top center no-repeat;
+  background: url("../img/smallBottle.jpg") center right no-repeat;
   background-size: cover;
   color: #fff;
   font-size: 14px;
